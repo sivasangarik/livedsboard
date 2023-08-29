@@ -1,0 +1,66 @@
+<mat-grid-list cols="2" rowHeight="12:1" class="grid">
+    <mat-grid-tile colspan="2" rowspan="1" class="glist">
+      
+      <h3 class="mt">FLOOR : </h3>
+      <mat-form-field class="mat-sel">
+      
+      <mat-label >Floor</mat-label>
+      
+      <mat-select>
+        <mat-option value="one">1</mat-option>
+        <mat-option value="two">2</mat-option>
+        <mat-option value="two">3</mat-option>
+        <mat-option value="two">4</mat-option>
+        <mat-option value="two">5</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <h3>SECTION : </h3>
+    <mat-form-field class="mat-sel">
+      <mat-label>Section</mat-label>
+      <mat-select>
+        <mat-option value="one">lab 1</mat-option>
+        <mat-option value="two">lab 2</mat-option>
+        <mat-option value="one">lab 3</mat-option>
+        <mat-option value="one">lab 4</mat-option>
+        <mat-option value="one">lab 5</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <h3>VIEW : </h3>
+    <mat-form-field class="mat-sel">
+      <mat-label>View</mat-label>
+      <mat-select>
+        <mat-option value="one">Individual</mat-option>
+        <mat-option value="two">group</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <h3>METER : </h3>
+    <mat-form-field class="mat-sel">
+      <mat-label>Meter</mat-label>
+      <mat-select>
+        <mat-option value="one">Meter 1</mat-option>
+        <mat-option value="two">Meter 2</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-grid-tile>
+</mat-grid-list>
+
+ <mat-grid-list cols="2" rowHeight="12:1" class="grid"> 
+    <mat-grid-tile colspan="2" rowspan="1"class="glist">
+     <div class="g1"><h3>ENERGY:<span class="colored-line">156610kWh</span></h3></div>  
+      <div ><h3>LAST UPDATED :<span class="colored-line">28/06/2023 10:10 AM</span> </h3>
+      </div>
+      <div class="g1"><h3>NEXT HOUR PREDICTED ENERGY :<span class="colored-line">157,393.05 kWh</span> </h3>
+      </div>
+
+    </mat-grid-tile>
+</mat-grid-list>
+
+  <mat-grid-list cols="2" rowHeight="4:1" class="grid">
+    <mat-grid-tile colspan="2" rowspan="1" class="glist"><app-gauge></app-gauge></mat-grid-tile>
+  </mat-grid-list>
+
+  <mat-grid-list cols="2" rowHeight="3:1" class="grid">
+    <mat-grid-tile class="glist"><app-power-line-chart></app-power-line-chart> </mat-grid-tile>
+    <mat-grid-tile class="glist"><app-power-factor></app-power-factor></mat-grid-tile>
+  </mat-grid-list>
+  

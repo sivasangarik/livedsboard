@@ -1,0 +1,21 @@
+.app-gauge-container {
+  display: flex;
+  flex-direction: row; 
+}
+
+
+ngx-gauge {
+  width: 150px; 
+  height: 150px; 
+  margin: 30px;
+}
+
+.can1{
+  width: 150px;
+  height: 150px;
+}
+
+.tit1{
+  margin: 30px 0px 0px;
+
+}

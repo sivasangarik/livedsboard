@@ -1,0 +1,27 @@
+ 
+  mat-grid-tile {
+    background: #fff;
+  }
+  
+
+.glist{
+    
+    margin-left: 5px;
+   
+}
+
+.grid{
+  margin: 5px 5px 5px;
+  width: 98.9%;
+}
+
+.colored-line{
+  color: red;
+  margin: 10px;
+}
+
+.g1{
+  margin: 150px;
+}
+
+

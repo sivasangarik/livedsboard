@@ -1,0 +1,11 @@
+<div class="app-gauge-container">
+  <h2 class="tit1">KEY PARAMETERS</h2>
+  <ngx-gauge style="width: 100px;" *ngFor="let type of gaugeTypes; let i = index"
+    [value]="gaugeValues[i]"
+    [label]="type"
+  ><canvas id="myCanvas" width="150" height="50"></canvas> 
+
+  </ngx-gauge>
+</div>
+
+

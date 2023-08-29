@@ -1,0 +1,24 @@
+.example-icon {
+    margin-right: 8px;
+    color: white;
+    
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  
+  .tool{
+    background-color: blue;
+  }
+
+  .heading{
+    color: #fff;
+  }
+
+  .material-icons{
+    margin: 4px;
+  }
+
+ 
